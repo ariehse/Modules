@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basic Webpack SystemJS Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="systemjs-importmap">
+        {
+        "imports": {
+        "planet-checker": "./file1.js"
+        }
+        }
+    </script>
+    <script type="systemjs-module" src="import:planet-checker">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
+    <script>System.import("./bin/app")</script>
+</head>
+<body>
+</body>
+</html>

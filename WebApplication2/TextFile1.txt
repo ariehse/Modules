@@ -1,0 +1,5 @@
+﻿1. Build the typescript from tsconfig  and generate code in bin folder of the library ( hold a package.json)
+2. create a new folder under node_modules under folder <libraryname> 
+3. create a package.json in the app with main property 
+4. create a tsconfig for use system module generation and  single outpt file 
+5. Build the typescript and single file in bin folder for bundle MVC for digital loans or digital issuing . 

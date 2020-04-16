@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "System",
+    "target": "es5",
+    "outDir": "../../Packages/hello-world"
+    //"outFile": "../../Packages/hello-world/hello-world.js"
+  }
+}

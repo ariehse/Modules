@@ -1,0 +1,25 @@
+{
+  "name": "TypscriptModules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "glob": "^7.1.6",
+    "systemjs": "^6.2.6",
+    "ts-loader": "^6.2.2",
+    "webpack": "^4.42.1",
+    "when": "^3.7.8"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "webpack-cli": "^3.3.11"
+  }
+}

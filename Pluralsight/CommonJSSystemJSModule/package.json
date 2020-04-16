@@ -1,0 +1,13 @@
+{
+  "name": "multimath-js",
+  "description": "explain how we create modules with js module pattern",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "systemjs": "0.19.27"
+  }
+}

@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script src="Scripts/systemjs/dist/system.js"></script>
+    <script>
+
+        System.import("./src/index1.js").then(function (exports) {
+            console.log(exports);
+        });
+    </script>
+</body>
+</html>

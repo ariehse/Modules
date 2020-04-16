@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "declaration": true,
+    "outDir": "../../Packages/Customers",
+    "module": "System"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

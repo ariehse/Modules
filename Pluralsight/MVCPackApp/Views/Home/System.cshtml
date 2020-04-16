@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+@section scripts {
+
+    @Scripts.Render("~/bundles/systemjs");
+    @Scripts.Render("~/bundles/app" );
+
+    @*<script src="..\..\Scripts\systemjs\dist\system.js"></script>
+        <script>
+            //SystemJS.import("../../js/app.js");
+            SystemJS.import("../../Scripts/ts/index.js");
+
+
+        </script>*@
+}

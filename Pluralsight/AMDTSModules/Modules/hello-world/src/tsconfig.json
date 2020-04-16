@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "module": "AMD",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "target": "es5"
+   
+  }
+}

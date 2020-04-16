@@ -1,0 +1,3 @@
+﻿first build libraries and create in folder packages under package name folder . 
+build app1 and create in bin folder js  
+load app1 and render mvc bundle : digitalcore bundle , auth bundle , digital.web bundle ,app1
